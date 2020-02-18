@@ -1,2 +1,17 @@
 # OSSC_test
-Documentation and issue reporting for the OSSC test phase
+Documentation and issue reporting for the OSSC test phase.
+
+
+## Reporting bugs and issues with the OSSC environment and asking questions
+To report bugs, issues or to ask questions to SURF advisors and admins, please create issues in [the issue tab](https://github.com/sara-nl/OSSC_test/issues).
+
+## SLURM usage 
+Cartesius uses a job scheduler (SLURM). All the information to get started with SLURM on Cartesius can be found [here (SURFsara user's guide](https://userinfo.surfsara.nl/systems/cartesius/usage/batch-usage).
+
+## Software environment on Cartesius
+The software environment on Cartesius is manage with modules.
+More information can be found under [software environment based on EasyBuild](https://userinfo.surfsara.nl/documentation/new-software-environment-based-easybuild) and [New Module Environment](https://userinfo.surfsara.nl/documentation/new-module-environment-lisa-cartesius).
+
+## Adding documentation
+Please add any missing documentation or (non confidential) useful information that may be shared with other users to this github repository, preferably in a separate file.
+
