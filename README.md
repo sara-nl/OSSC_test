@@ -9,7 +9,7 @@ Please report bugs, issues and ask questions to SURF advisors and admins via ema
 Cartesius uses a job scheduler (SLURM). All the information to get started with SLURM on Cartesius can be found [here (Cartesius user's guide)](https://userinfo.surfsara.nl/systems/cartesius/usage/batch-usage).
 
 ## Software environment on Cartesius
-The software environment on Cartesius is manage with modules.
+The software environment on Cartesius is managed with modules.
 More information can be found under [Software environment based on EasyBuild](https://userinfo.surfsara.nl/documentation/new-software-environment-based-easybuild) and [New Module Environment](https://userinfo.surfsara.nl/documentation/new-module-environment-lisa-cartesius).
 
 ## Adding documentation
