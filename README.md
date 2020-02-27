@@ -3,7 +3,7 @@ Documentation and issue reporting for the OSSC test phase.
 
 
 ## Reporting bugs and issues with the OSSC environment and asking questions
-Please report bugs, issues or to ask questions to SURF advisors and admins via email to odf-support@surfsara.nl.
+Please report bugs, issues or to ask questions to SURF advisors and admins via email to ossc-support@surfsara.nl.
 
 ## SLURM usage 
 Cartesius uses a job scheduler (SLURM). All the information to get started with SLURM on Cartesius can be found [here (Cartesius user's guide)](https://userinfo.surfsara.nl/systems/cartesius/usage/batch-usage).
