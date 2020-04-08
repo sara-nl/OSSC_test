@@ -14,6 +14,7 @@ More information can be found under [Software environment based on EasyBuild](ht
 In the OSSC, the 2019 software stack is loaded by default.
 
 In the OSSC, just as on Cartesius, softwares are managed using modules. Modules provide an easy mechanism for updating a user’s environment, notably the PATH, MANPATH, CPATH, and LD_LIBRARY_PATH environment variables. The advantage of the modules approach is that the user is no longer required to explicitly specify paths for different software versions nor need to try to keep the related environment variables coordinated. With the modules approach, users simply load and unload modules to control their environment.
+
 Users should always choose to use software available in a module rather than the system installation of that software. For example to use python3, load module `Python/3.7.5-foss-2018b` to make the cmmand `python` point to `/sw/arch/RedHatEnterpriseServer7/EB_production/2019/software/Python/3.7.5-foss-2018b/bin/python` rather than `/usr/bin/python`. 
 
 
