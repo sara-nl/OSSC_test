@@ -19,7 +19,9 @@ Users should always choose to use software available in a module rather than the
 
 
 **Remark:** We originally had issues with the module environment in the OSSC due to an incompatibility of the Operating System in the OSSC (CentOS 8) and the software stack that was built in the normal Cartesius environment, which runs RHEL 7. We fixed it by changing to a compatible Operating system in the OSSC (CentOS 7).
+<!---
 # **Warning:** there are incompatibilities between our software stack, which was built on the normal Cartesius environment, and the OSSC environment, which runs a newer version of the Operation System. As a consequence, a large part of the modules are not working as expected. The modules for the GCC compiler are not working on the OSSC environment, please use the OS GCC compiler without loading a module for the moment. 
+-->
 
 ## Adding documentation
 Please add any missing documentation and (non confidential) useful information that may be shared with other users to this github repository, preferably in a separate file.
