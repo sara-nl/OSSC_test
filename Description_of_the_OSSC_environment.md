@@ -10,3 +10,6 @@ Only when the reservation is active can the user access the compute nodes from w
 **The filesystem** in the OSSC differs from the normal Cartesius filesystem:
 - From the OSSC it is not possible to access the shared scratch space for security reasons.
 - Home directories on the OSSC are mounted on the Lustre file system, so they can meet the I/O demands of parallel jobs.
+
+As a consequence there is not benefit of using a dedicated `TMPDIR` that would reside on the same file system, and the `TMPDIR` environment variable is left undefined in the OSSC.
+If needed, users can create their own user-managed temporary directory, e.g. in `$HOME/tmp`, and define `TMPDIR` in their `.bashrc`.
